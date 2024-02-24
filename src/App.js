@@ -23,7 +23,7 @@ function App() {
        });
      }, [])
   return (
-    < div className = " overflow-hidden" >
+    < div className = " over_hidden" >
       <Hero_section />
       < Licensed />
       < Everygreen />

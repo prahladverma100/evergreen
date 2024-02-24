@@ -12,10 +12,10 @@ const Hero_section = () => {
     const [Show, setShow] = useState(false)
     const [isOpen, setOpen] = useState(false)
     if (Show === true) {
-        document.body.classList.add("overflow-hidden")
+        document.body.classList.add("max-lg:overflow-hidden")
     }
     else {
-        document.body.classList.remove("overflow-hidden")
+        document.body.classList.remove("max-lg:overflow-hidden")
     }
     const moment = () => {
         setShow(!Show);

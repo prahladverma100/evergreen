@@ -16,7 +16,7 @@ const Contact_us = () => {
                             <a href="" className=' cursor-pointer'> <Phone /></a>
                             <p className=' ff_poppins font-normal text-base leading-[25.6px] text-[#000] opacity-[70%]'>(312) 610-9790</p>
                         </div>
-                        <div className=' flex items-center lg:justify-start justify-center flex-wrap pt-1 px-3 lg:pt-[11px] gap-4 pb-1 lg:pb-7'>
+                        <div className=' flex items-center lg:justify-start justify-center flex-wrap pt-1 lg:pt-[11px] gap-4 pb-1 lg:pb-7'>
                             <a href="" className=' cursor-pointer'>    <Meaasge /></a>
                             <p className=' ff_poppins font-normal text-base leading-[25.6px] text-[#000] opacity-[70%]'>info@evergreenlandscapesco.com</p>
                         </div>

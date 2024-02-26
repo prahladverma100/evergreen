@@ -59,7 +59,7 @@ const Hero_section = () => {
                         </div>
                     </div>
                 </nav>
-                <Slider ref={slider} {...settings}>
+                <Slider  {...settings}>
                     <div className='relative '>
                         <img className='md:h-screen h-[80vh] object-cover w-full' src={hero_img1} alt="" />
                         <div className=' absolute bottom-[49px] z-20 left-[10%]' data-aos="fade-right">

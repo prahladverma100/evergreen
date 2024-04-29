@@ -18,7 +18,8 @@ const Gallery = () => {
         speed: 4000,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true,
+        autoplay: false
+        ,
         autoplaySpeed: 0,
         arrows: false,
         cssEase: 'linear',
@@ -56,7 +57,7 @@ const Gallery = () => {
         speed: 4000,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 0,
         arrows: false,
         rtl: true,
@@ -94,7 +95,7 @@ const Gallery = () => {
                 data-aos-easing="linear"
                 data-aos-duration="1000">Gallery</h3>
             <Slider {...settings}>
-                <div className='pe-[16px]'>
+                <div className='pe-[16px]' id='Photos'>
                     <img className=' max-w-[486px] h-[200px] sm:h-[297px]' src={slider_img2} alt="" />
                 </div>
                 <div className='pe-[16px]'>

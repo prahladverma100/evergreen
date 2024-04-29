@@ -18,14 +18,14 @@ const Licensed = () => {
                         data-aos-duration="1000">Why <span className=' text-[#88C701] italic font-medium'>customers choose</span> Evergreen Landscapes LLC</h5>
                     <div className=' flex lg:flex-row flex-wrap justify-between lg:pb-[76px] pb-7'>
                         <div className='w-full sm:w-1/2 lg:w-4/12  flex justify-center'>
-                            <div className=' bg-[#F0F8EC] box lg:mt-0 mt-3 hover:bg-[white] pb-[49px] duration-700 ease-in-out border-[1px]  w-[267px] rounded-[10px] pt-[41px] pl-6 border-[#DEEDD6]' data-aos="fade-right">
+                            <div className=' bg-[#F0F8EC] box cursor-pointer  lg:mt-0 mt-3 hover:bg-[white] pb-[49px] duration-700 ease-in-out border-[1px]  w-[267px] rounded-[10px] pt-[41px] pl-6 border-[#DEEDD6]' data-aos="fade-right">
                                 <span className=' hover:fill-black'>   <Creative /></span>
                                 <p className=' font-medium text-xl leading-[23px] ff_LibreCaslon pt-7 pb-3'>Creative Solutions</p>
                                 <p className='text-[#787C76] ff_poppins text-base font-normal'>Landscape Design & Build</p>
                             </div>
                         </div>
                         <div className='w-full sm:w-1/2 lg:w-4/12 flex justify-center'>
-                            <div className=' bg-[#F0F8EC] box lg:mt-0 mt-3 hover:bg-[white]  pb-[26px] duration-500 ease-in-out border-[1px] w-[267px] rounded-[10px] pt-[41px] pl-6 border-[#DEEDD6]' data-aos="fade-up"
+                            <div className=' bg-[#F0F8EC] box cursor-pointer lg:mt-0 mt-3 hover:bg-[white]  pb-[26px] duration-500 ease-in-out border-[1px] w-[267px] rounded-[10px] pt-[41px] pl-6 border-[#DEEDD6]' data-aos="fade-up"
                                 data-aos-duration="1000">
                                 <span className=' hover:fill-black'>   <Customer /></span>
                                 <p className=' font-medium text-xl leading-[23px] ff_LibreCaslon pt-7 pb-3'>Customer Service</p>
@@ -33,7 +33,7 @@ const Licensed = () => {
                             </div>
                         </div>
                         <div className='w-full lg:w-4/12 flex justify-center'>
-                            <div className=' bg-[#F0F8EC] box lg:mt-0 mt-3 hover:bg-[white] pb-[49px] duration-500 ease-in-out border-[1px] w-[267px] rounded-[10px] pt-[41px] pl-6 border-[#DEEDD6]' data-aos="fade-left">
+                            <div className=' bg-[#F0F8EC] box cursor-pointer lg:mt-0 mt-3 hover:bg-[white] pb-[49px] duration-500 ease-in-out border-[1px] w-[267px] rounded-[10px] pt-[41px] pl-6 border-[#DEEDD6]' data-aos="fade-left">
                                 <span className=' hover:fill-black'>   <Peace /></span>
                                 <p className=' font-medium text-xl leading-[23px] ff_LibreCaslon pt-7 pb-3'>Peace of mind</p>
                                 <p className='text-[#787C76] ff_poppins text-base font-normal'>Proven Proactive Approach</p>

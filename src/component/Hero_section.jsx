@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useRef } from 'react'
 import evergreen_logo from '../assets/image/webp/evergreen_logo.webp'
 import hero_img1 from '../assets/image/webp/hero_img1.webp'
 import Slider from "react-slick";
@@ -32,8 +32,10 @@ const Hero_section = () => {
         autoplaySpeed: 3000,
         slidesToShow: 1,
         slidesToScroll: 1,
-        cssEase: 'linear'
+        cssEase: 'linear',
+        arrows: false
     };
+
     return (
         <div className=''>
             <div className=' relative'>
@@ -43,7 +45,7 @@ const Hero_section = () => {
                 <div className=' z-40 hidden lg:block absolute top-[50%] cursor-pointer left-[3%]'>
                     <img onClick={() => slider?.current?.slickPrev()} src={arrow_left} alt="" />
                 </div>
-                <nav className=' flex justify-center'>
+                <nav className=' flex justify-center' id='home'>
                     <div className='flex items-center absolute z-10 top-0 w-full bg-white justify-between'>
                         <img className='w-full z-30 cursor-pointer max-w-[250px] sm:max-w-[333px] ' src={evergreen_logo} alt="" />
                         <ul className={`flex xl:gap-7 gap-5 lg:justify-end bg-white justify-center ${Show ? 'left-0' : 'left-[-100%]'} h-full w-full  flex-col lg:flex-row top-0 text-center z-20   items-center duration-500 fixed lg:static`}>
@@ -55,11 +57,11 @@ const Hero_section = () => {
                             <li><button className='ml-0 lg:ml-3 lg:py-[38px] py-5 px-5 lg:px-[34px] text-white ff_poppins font-medium text-base leading-5 duration-300 ease-in-out hover:bg-[#86a83b] bg-[#88C701]'>Request a quote</button></li>
                         </ul>
                         <div className='z-30 lg:hidden' onClick={() => setShow(!Show)}>
-                            <button className='{ show ?}'><Hamburger toggled={isOpen} toggle={setOpen} /></button>
+                            <button className='{ show ?} me-4'><Hamburger toggled={isOpen} toggle={setOpen} /></button>
                         </div>
                     </div>
                 </nav>
-                <Slider  {...settings}>
+                <Slider ref={slider} {...settings}>
                     <div className='relative '>
                         <img className='md:h-screen h-[80vh] object-cover w-full' src={hero_img1} alt="" />
                         <div className=' absolute bottom-[49px] z-20 left-[10%]' data-aos="fade-right">

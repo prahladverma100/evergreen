@@ -13,11 +13,11 @@ const Contact_us = () => {
                     <div className='w-full lg:w-1/2'>
                         <h4 className=' ff_LibreCaslon font-normal lg:text-4xl md:text-3xl text-2xl leading-[49px] text-center lg:text-start'>Contact Us</h4>
                         <div className=' flex items-center pt-5 lg:justify-start justify-center gap-4'>
-                            <a href="" className=' cursor-pointer'> <Phone /></a>
+                            <a href="tel:+4733378901" className=' cursor-pointer'> <Phone /></a>
                             <p className=' ff_poppins font-normal text-base leading-[25.6px] text-[#000] opacity-[70%]'>(312) 610-9790</p>
                         </div>
                         <div className=' flex items-center lg:justify-start justify-center flex-wrap pt-1 lg:pt-[11px] gap-4 pb-1 lg:pb-7'>
-                            <a href="" className=' cursor-pointer'>    <Meaasge /></a>
+                            <a href="info@evergreenlandscapesco.com" className=' cursor-pointer'>    <Meaasge /></a>
                             <p className=' ff_poppins font-normal text-base leading-[25.6px] text-[#000] opacity-[70%]'>info@evergreenlandscapesco.com</p>
                         </div>
                         <p className=' ff_LibreCaslon lg:text-start text-center font-normal text-base leading-[25.6px] text-[#000]'>Hours</p>
